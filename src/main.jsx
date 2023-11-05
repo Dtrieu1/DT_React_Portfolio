@@ -9,31 +9,37 @@ import Error from './pages/Error';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import About from './pages/About';
-import Blog from './pages/Blog';
+import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
 
-// Define the accessible routes, and which components respond to which URL
+// This grabs the info from pages 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
     errorElement: <Error />,
     children: [
+      // {
+      //   index: true,
+      //   element: <Home />,
+      // },
       {
         index: true,
-        element: <Home />,
-      },
-      {
         path: '/About',
         element: <About />,
       },
       {
-        path: '/Blog',
-        element: <Blog />,
+        path: '/Portfolio',
+        element: <Portfolio />,
       },
       {
         path: '/Contact',
         element: <Contact />,
       },
+      {
+        path: '/Resume',
+        element: <Resume />,
+      }
     ],
   },
 ]);
