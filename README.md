@@ -20,4 +20,4 @@
   Feel free to reach us at davidtrieu1@gmail.com or find us at Github at dtrieu1
 
   ## Resources
-Github logo image: https://banner2.cleanpng.com/20180824/jtl/kisspng-computer-icons-logo-portable-network-graphics-clip-icons-for-free-iconza-circle-social-5b7fe46b0bac53.1999041115351082030478.jpg <br>
+   <br>

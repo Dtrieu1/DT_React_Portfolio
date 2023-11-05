@@ -1,12 +1,19 @@
 .header {
-    background: #f9b713;
-    height: 200px;
+    background: lightgray;
+    height: 70px;
+    padding: 5px;
 }
 
 .header h1 {
     margin: 0;
-    padding-top: 75px;
+    padding-top: 25px;
     text-align: center;
     color: white;
     font-size: 3rem;
+}
+
+.navbar-brand,
+.nav {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
 }
