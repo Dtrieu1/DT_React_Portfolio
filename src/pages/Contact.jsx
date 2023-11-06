@@ -1,6 +1,11 @@
+import { MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit';
+import React from 'react';
+
 export default function Contact() {
   return (
-    <div>
+
+
+    <div className='container'>
       <h1>Contact </h1>
       <p>
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
@@ -15,6 +20,8 @@ export default function Contact() {
         conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
         rhoncus. Etiam vel condimentum magna, quis tempor nulla.
       </p>
+
+
     </div>
   );
 }

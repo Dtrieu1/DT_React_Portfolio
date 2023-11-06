@@ -11,7 +11,7 @@ function Header() {
                             <div class="navbar-brand">
                                 David Trieu
                             </div>
-                            <ul class="nav">
+                            {/* <ul class="nav">
                                 <li class="nav-item">
                                     <a class="nav-link" href="/">About</a>
                                 </li>
@@ -24,7 +24,7 @@ function Header() {
                                 <li class="nav-item">
                                     <a class="nav-link" href="Resume">Resume</a>
                                 </li>
-                            </ul>
+                            </ul> */}
                         </nav>
                     </div>
                 </div>

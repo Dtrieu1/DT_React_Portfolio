@@ -20,4 +20,4 @@
   Feel free to reach us at davidtrieu1@gmail.com or find us at Github at dtrieu1
 
   ## Resources
-   <br>
+  React - Columns: https://mdbootstrap.com/docs/react/layout/columns/<br>
