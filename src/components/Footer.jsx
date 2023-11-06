@@ -1,6 +1,6 @@
 import React from "react";
-import github from '../../public/Images/Github_Logo.png';
-import linkedin from '../../public/Images/Linkedin.png';
+import github from '/Images/Github_Logo.png';
+import linkedin from '/Images/Linkedin.png';
 import '../components/styles/Footer.css'
 
 
