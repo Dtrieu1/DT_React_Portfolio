@@ -1,16 +1,16 @@
 import { MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit';
 import React from 'react';
 import profile_pic from '/Images/David.jpg';
-import '../components/styles/About.css'
+import '../components/styles/About.css';
 
 export default function About() {
   return (
 
     <div className='container'>
-      <h1>About</h1>
-      <MDBContainer className="container">
+      <h1 className="text-center">About</h1>
+      <MDBContainer >
         <MDBRow className='mb-3'>
-          <MDBCol>
+          <MDBCol >
             Hi there! I have a background in Management Information Systems and Marketing. <br></br>
             Throughout the years, I was fortunate enough to experience a role that is related to IT healthcare and business.
             With this experience, it has led to me considering to be to explore further into the IT space
@@ -26,7 +26,7 @@ export default function About() {
             David
           </MDBCol>
           <MDBCol>
-            <img src={profile_pic} alt="profile_pic" ></img>
+            <img class="david" src={profile_pic} alt="profile_pic" ></img>
           </MDBCol>
         </MDBRow>
       </MDBContainer>

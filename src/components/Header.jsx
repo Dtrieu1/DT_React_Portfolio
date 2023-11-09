@@ -4,8 +4,8 @@ import '../components/styles/Header.css'
 function Header() {
     return (
         <header className="header">
-            <div class="container-fluid banner">
-                <div class="row">
+            <div className="container-fluid banner">
+                <div className="row">
                     <div class="col-md-12">
                         <nav class="navbar">
                             <div class="navbar-brand">

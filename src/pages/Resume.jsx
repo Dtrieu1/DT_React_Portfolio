@@ -1,7 +1,10 @@
+import React from "react";
+
+
 export default function Resume() {
   return (
-    <div className='container'>
-      <h1>Resume</h1>
+    <div className='container text-center'>
+      <h1 className="text-center">Resume</h1>
       <p>
         <h4>For resume: <a href="/Documents/David_Trieu_Resume.pdf">Click here </a> </h4>
         <h3>Skills:</h3>

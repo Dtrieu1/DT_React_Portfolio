@@ -21,3 +21,4 @@
 
   ## Resources
   React - Columns: https://mdbootstrap.com/docs/react/layout/columns/<br>
+  Forms: https://www.youtube.com/watch?v=8QgQKRcAUvM&t=150 <br>
