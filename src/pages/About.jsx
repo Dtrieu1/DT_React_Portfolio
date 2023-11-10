@@ -13,9 +13,7 @@ export default function About() {
           <MDBCol >
             Hi there! I have a background in Management Information Systems and Marketing. <br></br>
             Throughout the years, I was fortunate enough to experience a role that is related to IT healthcare and business.
-            With this experience, it has led to me considering to be to explore further into the IT space
-            so that I can become a more well-rounded person not only for my own personal growth,
-            but also to the organization.
+            With this experience, it has led me in considering to explore further into the IT space to further my learning and experience regarding this field.
             <br></br>
             <br></br>
             Besides that, please feel free to browse through this website! <br></br>

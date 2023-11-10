@@ -4,24 +4,24 @@ import React from 'react';
 export default function Contact() {
   return (
 
-
     <div className='container'>
-      <h1 className="text-center">Contact </h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+      <h1 className='text-center'>Contact</h1>
+      <div className='p-2'>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Name:</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Name"></input>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address:</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Email"></input>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Message:</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder='Enter Message'></textarea>
+        </div>
+        <div className='text-center'><button type="button" class="btn btn-primary">Submit</button></div>
+      </div>
+    </div >
 
-
-    </div>
   );
 }
